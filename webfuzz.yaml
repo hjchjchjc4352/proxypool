@@ -51,3 +51,8 @@
 - type: webfuzz
   options:
     url: https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Ray-list-current
+
+# 20230909
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt
