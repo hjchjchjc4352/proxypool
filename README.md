@@ -1,7 +1,6 @@
 # proxypool
 
-![Static Badge](https://img.shields.io/badge/ss|vmess|trojan-free-orange)
-<img src="https://visitor-badge.laobi.icu/badge?page_id=snakem982.proxypool" alt="visitor">
+![Static Badge](https://img.shields.io/badge/ss|ssr|vmess|vless|trojan-free-orange)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/snakem982/proxypool?color=DC52FC)
 
 
@@ -31,13 +30,13 @@ https://wanshanziwo.eu.org
 
 ## 备用订阅地址，两个小时更新一次。<br/>Alternate subscription address, updated every two hours.
 ### clash
-https://raw.githubusercontent.com/snakem982/proxypool/main/clash53306.yaml  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clash53306.yaml
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clash53306.yaml
+https://raw.githubusercontent.com/snakem982/proxypool/main/clash9a26b.yaml  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clash9a26b.yaml
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clash9a26b.yaml
 ### v2ray
-https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray53306.txt  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray53306.txt
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray53306.txt
+https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray9a26b.txt  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray9a26b.txt
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray9a26b.txt
 
 
 ## 免责声明 <br/>Disclaimer
