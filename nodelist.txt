@@ -39,9 +39,7 @@ https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml
 https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
 https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
 https://raw.githubusercontent.com/renyige1314/CLASH/main/CLASH
-https://raw.githubusercontent.com/resasanian/Mirza/main/trojan
-https://raw.githubusercontent.com/resasanian/Mirza/main/vmess
-https://raw.githubusercontent.com/resasanian/Mirza/main/ss
+https://raw.githubusercontent.com/resasanian/Mirza/main/sub
 https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
 https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
@@ -76,3 +74,7 @@ https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main
 https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/reality
 https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes
 https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/base64/mix
+https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml
+https://raw.githubusercontent.com/yaney01/Yaney01/main/yaney_01
+https://raw.githubusercontent.com/Vauth/node/main/Main
+https://raw.githubusercontent.com/Vauth/node/main/Pro
