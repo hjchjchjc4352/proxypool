@@ -25,18 +25,15 @@ The following is a self-built node cost-effective server recommendation:
 - [2000G/月Month 1000Mbps 1C1G $11.38/年Year 美国RackNerd促销](https://my.racknerd.com/aff.php?aff=8613 "美国RackNerd")
 - [3000G/月Month 1000Mbps 1C2G $19.89/年Year 美国RackNerd促销](https://my.racknerd.com/aff.php?aff=8613 "美国RackNerd")
 
-## 免费ss、vmess、trojan节点订阅地址，每小时更新。<br/>Free ss, vmess, trojan node subscription addresses, updated hourly.
-https://wanshanziwo.eu.org
-
-## 备用订阅地址，两个小时更新一次。<br/>Alternate subscription address, updated every two hours.
+## 订阅地址，两个小时更新一次。<br/>Subscription url, updated every two hours.
 ### clash
-https://raw.githubusercontent.com/snakem982/proxypool/main/clash86192.yaml  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clash86192.yaml
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clash86192.yaml
+https://raw.githubusercontent.com/snakem982/proxypool/main/clashac2a6.yaml  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clashac2a6.yaml
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clashac2a6.yaml
 ### v2ray
-https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray86192.txt  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray86192.txt
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray86192.txt
+https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayac2a6.txt  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayac2a6.txt
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayac2a6.txt
 
 
 ## 免责声明 <br/>Disclaimer
