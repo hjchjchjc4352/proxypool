@@ -65,3 +65,8 @@
   options:
     url: https://raw.githubusercontent.com/vveg26/chromego_merge/main/urls/clash_new_urls.txt
 
+# 20231108
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt
+
