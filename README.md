@@ -25,13 +25,13 @@ The following is a self-built node cost-effective server recommendation:
 
 ## 订阅地址，两个小时更新一次。<br/>Subscription url, updated every two hours.
 ### clash
-https://raw.githubusercontent.com/snakem982/proxypool/main/clashf4504.yaml  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clashf4504.yaml
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clashf4504.yaml
+https://raw.githubusercontent.com/snakem982/proxypool/main/clashc4b33.yaml  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clashc4b33.yaml
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clashc4b33.yaml
 ### v2ray
-https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayf4504.txt  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayf4504.txt
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayf4504.txt
+https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayc4b33.txt  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayc4b33.txt
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayc4b33.txt
 
 
 ## 免责声明 <br/>Disclaimer
