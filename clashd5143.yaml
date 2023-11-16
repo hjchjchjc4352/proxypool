@@ -26,13 +26,13 @@ proxies:
  - {"name":"Relay_🇨🇳CN-🇳🇱NL_07","server":"120.232.165.61","type":"ss","country":"🇨🇳CN","port":32004,"udp":true,"password":"bbf04cb3-df5f-4ba6-a8c9-699ad42556b6","cipher":"aes-128-gcm"}
  - {"name":"Relay_🇨🇳CN-🇰🇷KR_08","server":"120.232.165.61","type":"ss","country":"🇨🇳CN","port":32006,"udp":true,"password":"bbf04cb3-df5f-4ba6-a8c9-699ad42556b6","cipher":"aes-128-gcm"}
  - {"name":"Relay_🇨🇳CN-🇬🇧GB_09","server":"120.232.165.61","type":"ss","country":"🇨🇳CN","port":32007,"udp":true,"password":"bbf04cb3-df5f-4ba6-a8c9-699ad42556b6","cipher":"aes-128-gcm"}
- - {"name":"🇨🇳CN_10","server":"120.232.177.232","type":"ssr","country":"🇨🇳CN","port":1086,"udp":true,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"TG@wangcai_1"}
+ - {"name":"Relay_🇨🇳CN-🇺🇸US_10","server":"120.232.177.232","type":"ssr","country":"🇨🇳CN","port":1086,"udp":true,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"TG@wangcai_1"}
  - {"name":"Relay_🇨🇳CN-🇸🇬SG_11","server":"120.232.177.232","type":"ssr","country":"🇨🇳CN","port":1095,"udp":true,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"7521:12HsOu","obfs":"plain","obfs-param":"TG@wangcai_1"}
  - {"name":"Relay_🇨🇳CN-🇸🇬SG_12","server":"120.232.177.232","type":"ssr","country":"🇨🇳CN","port":1096,"udp":true,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"TG@wangcai_1"}
  - {"name":"Relay_🇨🇳CN-🇸🇬SG_13","server":"120.232.177.232","type":"ssr","country":"🇨🇳CN","port":1097,"udp":true,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"TG@wangcai_1"}
  - {"name":"Relay_🇨🇳CN-🇸🇬SG_14","server":"120.232.177.232","type":"ssr","country":"🇨🇳CN","port":1098,"udp":true,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"TG@wangcai_1"}
  - {"name":"Relay_🇨🇳CN-🇹🇼TW_15","server":"120.232.177.250","type":"ssr","country":"🇨🇳CN","port":1073,"udp":true,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"TG@wangcai_1"}
- - {"name":"🇨🇳CN_16","server":"120.232.177.250","type":"ssr","country":"🇨🇳CN","port":1082,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"TG@wangcai_1"}
+ - {"name":"Relay_🇨🇳CN-🇺🇸US_16","server":"120.232.177.250","type":"ssr","country":"🇨🇳CN","port":1082,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"TG@wangcai_1"}
  - {"name":"Relay_🇨🇳CN-🇸🇬SG_17","server":"120.232.177.250","type":"ssr","country":"🇨🇳CN","port":1091,"udp":true,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"TG@wangcai_1"}
  - {"name":"Relay_🇨🇳CN-🇸🇬SG_18","server":"120.232.177.250","type":"ssr","country":"🇨🇳CN","port":1092,"udp":true,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"TG@wangcai_1"}
  - {"name":"Relay_🇨🇳CN-🇸🇬SG_19","server":"120.232.177.250","type":"ssr","country":"🇨🇳CN","port":1093,"udp":true,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"TG@wangcai_1"}
@@ -74,39 +74,26 @@ proxies:
  - {"name":"Relay_🇨🇳CN-🇭🇰HK_55","server":"yd-07.paofunlink.com","type":"ssr","country":"🇨🇳CN","port":5958,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"microsoft.com"}
  - {"name":"Relay_🇨🇳CN-🇭🇰HK_56","server":"yd-07.paofunlink.com","type":"ssr","country":"🇨🇳CN","port":5959,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","protocol":"auth_aes128_sha1","protocol-param":"40575:fV3Nxq","obfs":"plain","obfs-param":"microsoft.com"}
  - {"name":"Relay_🇨🇳CN-🇺🇸US_57","server":"33.kccic2pa.xyz","type":"vmess","country":"🇨🇳CN","port":50033,"uuid":"1b5a5163-baf1-4b34-a426-6060b2ca359e","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{}}
- - {"name":"Relay_🇩🇪DE-🇩🇪DE_58","server":"213.202.216.14","type":"trojan","country":"🇩🇪DE","port":443,"password":"a0b94904-68f1-4e35-9509-0b188cf84505","sni":"downloadde.xn--mes358acgm99l.com","skip-cert-verify":true,"udp":true}
- - {"name":"🇫🇷FR_59","server":"51.158.54.237","type":"ss","country":"🇫🇷FR","port":443,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
- - {"name":"🇭🇰HK_60","server":"150.107.46.21","type":"ssr","country":"🇭🇰HK","port":8083,"udp":true,"password":"iFqnzSscN","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth","obfs-param":"cloudfront.net"}
- - {"name":"🇭🇰HK_61","server":"212.192.15.68","type":"trojan","country":"🇭🇰HK","port":49487,"password":"1cb996c8-e5bf-40d2-9a3c-149b3b721c5f","sni":"hk3.visaapp.top","skip-cert-verify":true}
- - {"name":"🇭🇰HK_62","server":"47.76.44.217","type":"ss","country":"🇭🇰HK","port":80,"udp":true,"password":"a-wym4ovY4Yw","cipher":"aes-128-gcm","plugin":"obfs","plugin-opts":{"host":"","mode":"http"}}
- - {"name":"🇭🇰HK_63","server":"8.210.119.75","type":"ss","country":"🇭🇰HK","port":80,"udp":true,"password":"a-wym4ovY4Yw","cipher":"aes-128-gcm","plugin":"obfs","plugin-opts":{"host":"","mode":"http"}}
- - {"name":"🇭🇰HK_64","server":"8.217.212.41","type":"ss","country":"🇭🇰HK","port":80,"password":"a-wym4ovY4Yw","cipher":"aes-128-gcm","plugin":"obfs","plugin-opts":{"host":"","mode":"http"}}
- - {"name":"Relay_🇭🇰HK-🇯🇵JP_65","server":"aws-hk03.aikun.online","type":"trojan","country":"🇭🇰HK","port":443,"password":"283a4450-028d-4f8d-94fc-0a954ab4a96d","sni":"cdn-65135431546231.78321.xyz","skip-cert-verify":true,"udp":true}
- - {"name":"Relay_🇭🇰HK-🇭🇰HK_66","server":"hk3.visaapp.top","type":"trojan","country":"🇭🇰HK","port":49487,"password":"1cb996c8-e5bf-40d2-9a3c-149b3b721c5f","skip-cert-verify":true,"tls":true}
- - {"name":"🇰🇷KR_67","server":"43.201.52.239","type":"ss","country":"🇰🇷KR","port":443,"udp":true,"password":"amazonskr05","cipher":"aes-256-cfb"}
- - {"name":"Relay_🇰🇷KR-🇰🇷KR_68","server":"krse.qrfly.me","type":"ss","country":"🇰🇷KR","port":22004,"udp":true,"password":"b264e44a-578c-4ce6-bb8d-cd31ae33201f","cipher":"chacha20-ietf-poly1305"}
- - {"name":"🇳🇱NL_69","server":"95.179.128.114","type":"trojan","country":"🇳🇱NL","port":443,"password":"a6292090-afe1-4640-97a7-4f1d1d877cf1","sni":"hdfy8d1.cpi1.eu.org","skip-cert-verify":true,"tls":true,"grpc-opts":{"grpc-service-name":"8bHUAD5IX0lC5KffvrsN6rqb"},"network":"grpc"}
- - {"name":"🇵🇱PL_70","server":"146.59.111.197","type":"ss","country":"🇵🇱PL","port":443,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
- - {"name":"🇸🇬SG_71","server":"13.215.249.53","type":"ss","country":"🇸🇬SG","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
- - {"name":"🇸🇬SG_72","server":"146.190.108.1","type":"trojan","country":"🇸🇬SG","port":1,"password":"wish","sni":"docs.google.com","skip-cert-verify":true,"tls":true}
- - {"name":"🇸🇬SG_73","server":"146.190.108.227","type":"trojan","country":"🇸🇬SG","port":1,"password":"1","skip-cert-verify":true,"tls":true}
- - {"name":"🇸🇬SG_74","server":"146.190.87.59","type":"trojan","country":"🇸🇬SG","port":56674,"password":"fGahrYudYD","skip-cert-verify":true}
- - {"name":"Relay_🇹🇼TW-🇹🇼TW_75","server":"tc12.kq1.dynu.net","type":"vmess","country":"🇹🇼TW","port":443,"uuid":"b4224a4d-6754-47e5-99ef-124697d24b4e","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/vbub2","headers":{"Host":"tc12.kq1.dynu.net"}}}
- - {"name":"Relay_🇹🇼TW-🇹🇼TW_76","server":"nbq11.ntbq.dynu.net","type":"vmess","country":"🇹🇼TW","port":443,"uuid":"b4224a4d-6754-47e5-99ef-124697d24b4e","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/b11","headers":{"Host":"nbq11.ntbq.dynu.net"}}}
- - {"name":"Relay_🇹🇼TW-🇹🇼TW_77","server":"b22.ntbq.dynu.net","type":"vmess","country":"🇹🇼TW","port":443,"uuid":"b4224a4d-6754-47e5-99ef-124697d24b4e","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/b22","headers":{"Host":"b22.ntbq.dynu.net"}}}
- - {"name":"Relay_🇺🇸US-🇮🇩ID_78","server":"104.21.24.40","type":"trojan","country":"🇺🇸US","port":443,"password":"4d7dba2d-dd24-4edb-988a-64c6fadf1a35","alpn":["h2","http/1.1"],"sni":"vpneror1010101.sajadhadadi.top","skip-cert-verify":true,"tls":true,"grpc-opts":{"grpc-service-name":"grpc"},"network":"grpc"}
- - {"name":"Relay_🇺🇸US-🇨🇭CH_79","server":"104.21.70.177","type":"trojan","country":"🇺🇸US","port":443,"password":"nevis","sni":"www.anyhoweliseo.info","skip-cert-verify":true,"tls":true,"ws-opts":{"path":"/tailors"},"network":"ws"}
- - {"name":"Relay_🇺🇸US-🇺🇸US_80","server":"104.25.255.254","type":"trojan","country":"🇺🇸US","port":443,"password":"a6292090-afe1-4640-97a7-4f1d1d877cf1","sni":"hdfy8c1.foriran.me","skip-cert-verify":true,"tls":true,"grpc-opts":{"grpc-service-name":"8bHUAD5IX0lC5KffvrsN6rqb"},"network":"grpc"}
- - {"name":"Relay_🇺🇸US-🇨🇭CH_81","server":"172.67.138.12","type":"trojan","country":"🇺🇸US","port":443,"password":"nevis","sni":"www.anyhoweliseo.info","skip-cert-verify":true,"tls":true,"ws-opts":{"path":"/tailors"},"network":"ws"}
- - {"name":"Relay_🇺🇸US-🇮🇩ID_82","server":"172.67.216.195","type":"trojan","country":"🇺🇸US","port":443,"password":"4d7dba2d-dd24-4edb-988a-64c6fadf1a35","alpn":["h2","http/1.1"],"sni":"vpneror1010101.sajadhadadi.top","skip-cert-verify":true,"tls":true,"grpc-opts":{"grpc-service-name":"grpc"},"network":"grpc"}
- - {"name":"Relay_🇺🇸US-🇺🇸US_83","server":"188.114.99.29","type":"trojan","country":"🇺🇸US","port":443,"password":"a6292090-afe1-4640-97a7-4f1d1d877cf1","alpn":["h2"],"sni":"hdfy8c1.foriran.me","skip-cert-verify":true,"tls":true,"grpc-opts":{"grpc-service-name":"8bHUAD5IX0lC5KffvrsN6rqb"},"network":"grpc"}
- - {"name":"Relay_🇺🇸US-🇩🇪DE_84","server":"209.46.30.105","type":"trojan","country":"🇺🇸US","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","sni":"glc-de.glccf.top","skip-cert-verify":true,"ws-opts":{"path":"/guolicheng/de","headers":{"Host":"glc-de.glccf.top"}},"network":"ws"}
- - {"name":"Relay_🇺🇸US-🇫🇷FR_85","server":"209.46.30.12","type":"trojan","country":"🇺🇸US","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","sni":"fr1.glccf.top","skip-cert-verify":true,"ws-opts":{"path":"/guolicheng/fr","headers":{"Host":"fr1.glccf.top"}},"network":"ws"}
- - {"name":"Relay_🇺🇸US-🇹🇼TW_86","server":"209.46.30.133","type":"trojan","country":"🇺🇸US","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","sni":"glc-hinet.glccf.top","skip-cert-verify":true,"ws-opts":{"path":"/guolicheng/hinet","headers":{"Host":"glc-hinet.glccf.top"}},"network":"ws"}
- - {"name":"Relay_🇺🇸US-🇺🇸US_87","server":"209.46.30.229","type":"trojan","country":"🇺🇸US","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","sni":"glc-us1.glccf.top","skip-cert-verify":true,"ws-opts":{"path":"/guolicheng/us1","headers":{"Host":"glc-us1.glccf.top"}},"network":"ws"}
- - {"name":"Relay_🇺🇸US-🇹🇷TR_88","server":"209.46.30.28","type":"trojan","country":"🇺🇸US","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","sni":"glc-tr1.glccf.top","skip-cert-verify":true,"ws-opts":{"path":"/guolicheng/tr1","headers":{"Host":"glc-tr1.glccf.top"}},"network":"ws"}
- - {"name":"🇺🇸US_89","server":"5.161.68.48","type":"vmess","country":"🇺🇸US","port":3389,"uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"cipher":"auto","network":"http","http-opts":{"method":"GET","path":["/"]},"h2-opts":{},"skip-cert-verify":true}
- - {"name":"🇿🇦ZA_90","server":"41.203.4.34","type":"ss","country":"🇿🇦ZA","port":989,"udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+ - {"name":"🇫🇷FR_58","server":"51.158.54.237","type":"ss","country":"🇫🇷FR","port":443,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
+ - {"name":"🇭🇰HK_59","server":"212.192.15.68","type":"trojan","country":"🇭🇰HK","port":49487,"password":"1cb996c8-e5bf-40d2-9a3c-149b3b721c5f","sni":"hk3.visaapp.top","skip-cert-verify":true}
+ - {"name":"🇭🇰HK_60","server":"47.76.44.217","type":"ss","country":"🇭🇰HK","port":80,"udp":true,"password":"a-wym4ovY4Yw","cipher":"aes-128-gcm","plugin":"obfs","plugin-opts":{"host":"","mode":"http"}}
+ - {"name":"🇭🇰HK_61","server":"8.210.119.75","type":"ss","country":"🇭🇰HK","port":80,"udp":true,"password":"a-wym4ovY4Yw","cipher":"aes-128-gcm","plugin":"obfs","plugin-opts":{"host":"","mode":"http"}}
+ - {"name":"Relay_🇭🇰HK-🇭🇰HK_62","server":"hk3.visaapp.top","type":"trojan","country":"🇭🇰HK","port":49487,"password":"1cb996c8-e5bf-40d2-9a3c-149b3b721c5f","skip-cert-verify":true,"tls":true}
+ - {"name":"🇵🇱PL_63","server":"146.59.111.197","type":"ss","country":"🇵🇱PL","port":443,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
+ - {"name":"🇸🇬SG_64","server":"146.190.87.59","type":"trojan","country":"🇸🇬SG","port":56674,"password":"fGahrYudYD","skip-cert-verify":true}
+ - {"name":"Relay_🇹🇼TW-🇹🇼TW_65","server":"tc12.kq1.dynu.net","type":"vmess","country":"🇹🇼TW","port":443,"uuid":"b4224a4d-6754-47e5-99ef-124697d24b4e","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/vbub2","headers":{"Host":"tc12.kq1.dynu.net"}}}
+ - {"name":"Relay_🇹🇼TW-🇹🇼TW_66","server":"nbq11.ntbq.dynu.net","type":"vmess","country":"🇹🇼TW","port":443,"uuid":"b4224a4d-6754-47e5-99ef-124697d24b4e","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/b11","headers":{"Host":"nbq11.ntbq.dynu.net"}}}
+ - {"name":"Relay_🇹🇼TW-🇹🇼TW_67","server":"b22.ntbq.dynu.net","type":"vmess","country":"🇹🇼TW","port":443,"uuid":"b4224a4d-6754-47e5-99ef-124697d24b4e","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/b22","headers":{"Host":"b22.ntbq.dynu.net"}}}
+ - {"name":"🇺🇸US_68","server":"104.21.24.40","type":"trojan","country":"🇺🇸US","port":443,"password":"4d7dba2d-dd24-4edb-988a-64c6fadf1a35","alpn":["h2","http/1.1"],"sni":"vpneror1010101.sajadhadadi.top","skip-cert-verify":true,"tls":true,"grpc-opts":{"grpc-service-name":"grpc"},"network":"grpc"}
+ - {"name":"Relay_🇺🇸US-🇨🇭CH_69","server":"104.21.70.177","type":"trojan","country":"🇺🇸US","port":443,"password":"nevis","sni":"www.anyhoweliseo.info","skip-cert-verify":true,"tls":true,"ws-opts":{"path":"/tailors"},"network":"ws"}
+ - {"name":"Relay_🇺🇸US-🇨🇭CH_70","server":"172.67.138.12","type":"trojan","country":"🇺🇸US","port":443,"password":"nevis","sni":"www.anyhoweliseo.info","skip-cert-verify":true,"tls":true,"ws-opts":{"path":"/tailors"},"network":"ws"}
+ - {"name":"Relay_🇺🇸US-🇮🇩ID_71","server":"172.67.216.195","type":"trojan","country":"🇺🇸US","port":443,"password":"4d7dba2d-dd24-4edb-988a-64c6fadf1a35","alpn":["h2","http/1.1"],"sni":"vpneror1010101.sajadhadadi.top","skip-cert-verify":true,"tls":true,"grpc-opts":{"grpc-service-name":"grpc"},"network":"grpc"}
+ - {"name":"Relay_🇺🇸US-🇺🇸US_72","server":"188.114.99.29","type":"trojan","country":"🇺🇸US","port":443,"password":"a6292090-afe1-4640-97a7-4f1d1d877cf1","alpn":["h2"],"sni":"hdfy8c1.foriran.me","skip-cert-verify":true,"tls":true,"grpc-opts":{"grpc-service-name":"8bHUAD5IX0lC5KffvrsN6rqb"},"network":"grpc"}
+ - {"name":"🇺🇸US_73","server":"209.46.30.105","type":"trojan","country":"🇺🇸US","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","sni":"glc-de.glccf.top","skip-cert-verify":true,"ws-opts":{"path":"/guolicheng/de","headers":{"Host":"glc-de.glccf.top"}},"network":"ws"}
+ - {"name":"Relay_🇺🇸US-🇫🇷FR_74","server":"209.46.30.12","type":"trojan","country":"🇺🇸US","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","sni":"fr1.glccf.top","skip-cert-verify":true,"ws-opts":{"path":"/guolicheng/fr","headers":{"Host":"fr1.glccf.top"}},"network":"ws"}
+ - {"name":"Relay_🇺🇸US-🇹🇷TR_75","server":"209.46.30.28","type":"trojan","country":"🇺🇸US","port":443,"password":"29ea82cf-f956-42b2-a5dc-35feea39e7ff","sni":"glc-tr1.glccf.top","skip-cert-verify":true,"ws-opts":{"path":"/guolicheng/tr1","headers":{"Host":"glc-tr1.glccf.top"}},"network":"ws"}
+ - {"name":"🇺🇸US_76","server":"5.161.68.48","type":"vmess","country":"🇺🇸US","port":3389,"uuid":"9c050a86-d612-48f1-ec32-e573df08a1b7","alterId":0,"cipher":"auto","network":"http","http-opts":{"method":"GET","path":["/"]},"h2-opts":{},"skip-cert-verify":true}
+ - {"name":"🇿🇦ZA_77","server":"41.203.4.34","type":"ss","country":"🇿🇦ZA","port":989,"udp":true,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
 
 
 proxy-groups:
@@ -126,13 +113,13 @@ proxy-groups:
       - Relay_🇨🇳CN-🇳🇱NL_07
       - Relay_🇨🇳CN-🇰🇷KR_08
       - Relay_🇨🇳CN-🇬🇧GB_09
-      - 🇨🇳CN_10
+      - Relay_🇨🇳CN-🇺🇸US_10
       - Relay_🇨🇳CN-🇸🇬SG_11
       - Relay_🇨🇳CN-🇸🇬SG_12
       - Relay_🇨🇳CN-🇸🇬SG_13
       - Relay_🇨🇳CN-🇸🇬SG_14
       - Relay_🇨🇳CN-🇹🇼TW_15
-      - 🇨🇳CN_16
+      - Relay_🇨🇳CN-🇺🇸US_16
       - Relay_🇨🇳CN-🇸🇬SG_17
       - Relay_🇨🇳CN-🇸🇬SG_18
       - Relay_🇨🇳CN-🇸🇬SG_19
@@ -174,39 +161,26 @@ proxy-groups:
       - Relay_🇨🇳CN-🇭🇰HK_55
       - Relay_🇨🇳CN-🇭🇰HK_56
       - Relay_🇨🇳CN-🇺🇸US_57
-      - Relay_🇩🇪DE-🇩🇪DE_58
-      - 🇫🇷FR_59
+      - 🇫🇷FR_58
+      - 🇭🇰HK_59
       - 🇭🇰HK_60
       - 🇭🇰HK_61
-      - 🇭🇰HK_62
-      - 🇭🇰HK_63
-      - 🇭🇰HK_64
-      - Relay_🇭🇰HK-🇯🇵JP_65
-      - Relay_🇭🇰HK-🇭🇰HK_66
-      - 🇰🇷KR_67
-      - Relay_🇰🇷KR-🇰🇷KR_68
-      - 🇳🇱NL_69
-      - 🇵🇱PL_70
-      - 🇸🇬SG_71
-      - 🇸🇬SG_72
-      - 🇸🇬SG_73
-      - 🇸🇬SG_74
-      - Relay_🇹🇼TW-🇹🇼TW_75
-      - Relay_🇹🇼TW-🇹🇼TW_76
-      - Relay_🇹🇼TW-🇹🇼TW_77
-      - Relay_🇺🇸US-🇮🇩ID_78
-      - Relay_🇺🇸US-🇨🇭CH_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇨🇭CH_81
-      - Relay_🇺🇸US-🇮🇩ID_82
-      - Relay_🇺🇸US-🇺🇸US_83
-      - Relay_🇺🇸US-🇩🇪DE_84
-      - Relay_🇺🇸US-🇫🇷FR_85
-      - Relay_🇺🇸US-🇹🇼TW_86
-      - Relay_🇺🇸US-🇺🇸US_87
-      - Relay_🇺🇸US-🇹🇷TR_88
-      - 🇺🇸US_89
-      - 🇿🇦ZA_90
+      - Relay_🇭🇰HK-🇭🇰HK_62
+      - 🇵🇱PL_63
+      - 🇸🇬SG_64
+      - Relay_🇹🇼TW-🇹🇼TW_65
+      - Relay_🇹🇼TW-🇹🇼TW_66
+      - Relay_🇹🇼TW-🇹🇼TW_67
+      - 🇺🇸US_68
+      - Relay_🇺🇸US-🇨🇭CH_69
+      - Relay_🇺🇸US-🇨🇭CH_70
+      - Relay_🇺🇸US-🇮🇩ID_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸US_73
+      - Relay_🇺🇸US-🇫🇷FR_74
+      - Relay_🇺🇸US-🇹🇷TR_75
+      - 🇺🇸US_76
+      - 🇿🇦ZA_77
 
   - name: ♻️ 自动选择
     type: url-test
@@ -223,13 +197,13 @@ proxy-groups:
       - Relay_🇨🇳CN-🇳🇱NL_07
       - Relay_🇨🇳CN-🇰🇷KR_08
       - Relay_🇨🇳CN-🇬🇧GB_09
-      - 🇨🇳CN_10
+      - Relay_🇨🇳CN-🇺🇸US_10
       - Relay_🇨🇳CN-🇸🇬SG_11
       - Relay_🇨🇳CN-🇸🇬SG_12
       - Relay_🇨🇳CN-🇸🇬SG_13
       - Relay_🇨🇳CN-🇸🇬SG_14
       - Relay_🇨🇳CN-🇹🇼TW_15
-      - 🇨🇳CN_16
+      - Relay_🇨🇳CN-🇺🇸US_16
       - Relay_🇨🇳CN-🇸🇬SG_17
       - Relay_🇨🇳CN-🇸🇬SG_18
       - Relay_🇨🇳CN-🇸🇬SG_19
@@ -271,39 +245,26 @@ proxy-groups:
       - Relay_🇨🇳CN-🇭🇰HK_55
       - Relay_🇨🇳CN-🇭🇰HK_56
       - Relay_🇨🇳CN-🇺🇸US_57
-      - Relay_🇩🇪DE-🇩🇪DE_58
-      - 🇫🇷FR_59
+      - 🇫🇷FR_58
+      - 🇭🇰HK_59
       - 🇭🇰HK_60
       - 🇭🇰HK_61
-      - 🇭🇰HK_62
-      - 🇭🇰HK_63
-      - 🇭🇰HK_64
-      - Relay_🇭🇰HK-🇯🇵JP_65
-      - Relay_🇭🇰HK-🇭🇰HK_66
-      - 🇰🇷KR_67
-      - Relay_🇰🇷KR-🇰🇷KR_68
-      - 🇳🇱NL_69
-      - 🇵🇱PL_70
-      - 🇸🇬SG_71
-      - 🇸🇬SG_72
-      - 🇸🇬SG_73
-      - 🇸🇬SG_74
-      - Relay_🇹🇼TW-🇹🇼TW_75
-      - Relay_🇹🇼TW-🇹🇼TW_76
-      - Relay_🇹🇼TW-🇹🇼TW_77
-      - Relay_🇺🇸US-🇮🇩ID_78
-      - Relay_🇺🇸US-🇨🇭CH_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇨🇭CH_81
-      - Relay_🇺🇸US-🇮🇩ID_82
-      - Relay_🇺🇸US-🇺🇸US_83
-      - Relay_🇺🇸US-🇩🇪DE_84
-      - Relay_🇺🇸US-🇫🇷FR_85
-      - Relay_🇺🇸US-🇹🇼TW_86
-      - Relay_🇺🇸US-🇺🇸US_87
-      - Relay_🇺🇸US-🇹🇷TR_88
-      - 🇺🇸US_89
-      - 🇿🇦ZA_90
+      - Relay_🇭🇰HK-🇭🇰HK_62
+      - 🇵🇱PL_63
+      - 🇸🇬SG_64
+      - Relay_🇹🇼TW-🇹🇼TW_65
+      - Relay_🇹🇼TW-🇹🇼TW_66
+      - Relay_🇹🇼TW-🇹🇼TW_67
+      - 🇺🇸US_68
+      - Relay_🇺🇸US-🇨🇭CH_69
+      - Relay_🇺🇸US-🇨🇭CH_70
+      - Relay_🇺🇸US-🇮🇩ID_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸US_73
+      - Relay_🇺🇸US-🇫🇷FR_74
+      - Relay_🇺🇸US-🇹🇷TR_75
+      - 🇺🇸US_76
+      - 🇿🇦ZA_77
 
   - name: 🔯 故障转移
     type: fallback
@@ -319,13 +280,13 @@ proxy-groups:
       - Relay_🇨🇳CN-🇳🇱NL_07
       - Relay_🇨🇳CN-🇰🇷KR_08
       - Relay_🇨🇳CN-🇬🇧GB_09
-      - 🇨🇳CN_10
+      - Relay_🇨🇳CN-🇺🇸US_10
       - Relay_🇨🇳CN-🇸🇬SG_11
       - Relay_🇨🇳CN-🇸🇬SG_12
       - Relay_🇨🇳CN-🇸🇬SG_13
       - Relay_🇨🇳CN-🇸🇬SG_14
       - Relay_🇨🇳CN-🇹🇼TW_15
-      - 🇨🇳CN_16
+      - Relay_🇨🇳CN-🇺🇸US_16
       - Relay_🇨🇳CN-🇸🇬SG_17
       - Relay_🇨🇳CN-🇸🇬SG_18
       - Relay_🇨🇳CN-🇸🇬SG_19
@@ -367,39 +328,26 @@ proxy-groups:
       - Relay_🇨🇳CN-🇭🇰HK_55
       - Relay_🇨🇳CN-🇭🇰HK_56
       - Relay_🇨🇳CN-🇺🇸US_57
-      - Relay_🇩🇪DE-🇩🇪DE_58
-      - 🇫🇷FR_59
+      - 🇫🇷FR_58
+      - 🇭🇰HK_59
       - 🇭🇰HK_60
       - 🇭🇰HK_61
-      - 🇭🇰HK_62
-      - 🇭🇰HK_63
-      - 🇭🇰HK_64
-      - Relay_🇭🇰HK-🇯🇵JP_65
-      - Relay_🇭🇰HK-🇭🇰HK_66
-      - 🇰🇷KR_67
-      - Relay_🇰🇷KR-🇰🇷KR_68
-      - 🇳🇱NL_69
-      - 🇵🇱PL_70
-      - 🇸🇬SG_71
-      - 🇸🇬SG_72
-      - 🇸🇬SG_73
-      - 🇸🇬SG_74
-      - Relay_🇹🇼TW-🇹🇼TW_75
-      - Relay_🇹🇼TW-🇹🇼TW_76
-      - Relay_🇹🇼TW-🇹🇼TW_77
-      - Relay_🇺🇸US-🇮🇩ID_78
-      - Relay_🇺🇸US-🇨🇭CH_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇨🇭CH_81
-      - Relay_🇺🇸US-🇮🇩ID_82
-      - Relay_🇺🇸US-🇺🇸US_83
-      - Relay_🇺🇸US-🇩🇪DE_84
-      - Relay_🇺🇸US-🇫🇷FR_85
-      - Relay_🇺🇸US-🇹🇼TW_86
-      - Relay_🇺🇸US-🇺🇸US_87
-      - Relay_🇺🇸US-🇹🇷TR_88
-      - 🇺🇸US_89
-      - 🇿🇦ZA_90
+      - Relay_🇭🇰HK-🇭🇰HK_62
+      - 🇵🇱PL_63
+      - 🇸🇬SG_64
+      - Relay_🇹🇼TW-🇹🇼TW_65
+      - Relay_🇹🇼TW-🇹🇼TW_66
+      - Relay_🇹🇼TW-🇹🇼TW_67
+      - 🇺🇸US_68
+      - Relay_🇺🇸US-🇨🇭CH_69
+      - Relay_🇺🇸US-🇨🇭CH_70
+      - Relay_🇺🇸US-🇮🇩ID_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸US_73
+      - Relay_🇺🇸US-🇫🇷FR_74
+      - Relay_🇺🇸US-🇹🇷TR_75
+      - 🇺🇸US_76
+      - 🇿🇦ZA_77
 
   - name: 🔮 负载均衡
     type: load-balance
@@ -416,13 +364,13 @@ proxy-groups:
       - Relay_🇨🇳CN-🇳🇱NL_07
       - Relay_🇨🇳CN-🇰🇷KR_08
       - Relay_🇨🇳CN-🇬🇧GB_09
-      - 🇨🇳CN_10
+      - Relay_🇨🇳CN-🇺🇸US_10
       - Relay_🇨🇳CN-🇸🇬SG_11
       - Relay_🇨🇳CN-🇸🇬SG_12
       - Relay_🇨🇳CN-🇸🇬SG_13
       - Relay_🇨🇳CN-🇸🇬SG_14
       - Relay_🇨🇳CN-🇹🇼TW_15
-      - 🇨🇳CN_16
+      - Relay_🇨🇳CN-🇺🇸US_16
       - Relay_🇨🇳CN-🇸🇬SG_17
       - Relay_🇨🇳CN-🇸🇬SG_18
       - Relay_🇨🇳CN-🇸🇬SG_19
@@ -464,39 +412,26 @@ proxy-groups:
       - Relay_🇨🇳CN-🇭🇰HK_55
       - Relay_🇨🇳CN-🇭🇰HK_56
       - Relay_🇨🇳CN-🇺🇸US_57
-      - Relay_🇩🇪DE-🇩🇪DE_58
-      - 🇫🇷FR_59
+      - 🇫🇷FR_58
+      - 🇭🇰HK_59
       - 🇭🇰HK_60
       - 🇭🇰HK_61
-      - 🇭🇰HK_62
-      - 🇭🇰HK_63
-      - 🇭🇰HK_64
-      - Relay_🇭🇰HK-🇯🇵JP_65
-      - Relay_🇭🇰HK-🇭🇰HK_66
-      - 🇰🇷KR_67
-      - Relay_🇰🇷KR-🇰🇷KR_68
-      - 🇳🇱NL_69
-      - 🇵🇱PL_70
-      - 🇸🇬SG_71
-      - 🇸🇬SG_72
-      - 🇸🇬SG_73
-      - 🇸🇬SG_74
-      - Relay_🇹🇼TW-🇹🇼TW_75
-      - Relay_🇹🇼TW-🇹🇼TW_76
-      - Relay_🇹🇼TW-🇹🇼TW_77
-      - Relay_🇺🇸US-🇮🇩ID_78
-      - Relay_🇺🇸US-🇨🇭CH_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇨🇭CH_81
-      - Relay_🇺🇸US-🇮🇩ID_82
-      - Relay_🇺🇸US-🇺🇸US_83
-      - Relay_🇺🇸US-🇩🇪DE_84
-      - Relay_🇺🇸US-🇫🇷FR_85
-      - Relay_🇺🇸US-🇹🇼TW_86
-      - Relay_🇺🇸US-🇺🇸US_87
-      - Relay_🇺🇸US-🇹🇷TR_88
-      - 🇺🇸US_89
-      - 🇿🇦ZA_90
+      - Relay_🇭🇰HK-🇭🇰HK_62
+      - 🇵🇱PL_63
+      - 🇸🇬SG_64
+      - Relay_🇹🇼TW-🇹🇼TW_65
+      - Relay_🇹🇼TW-🇹🇼TW_66
+      - Relay_🇹🇼TW-🇹🇼TW_67
+      - 🇺🇸US_68
+      - Relay_🇺🇸US-🇨🇭CH_69
+      - Relay_🇺🇸US-🇨🇭CH_70
+      - Relay_🇺🇸US-🇮🇩ID_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸US_73
+      - Relay_🇺🇸US-🇫🇷FR_74
+      - Relay_🇺🇸US-🇹🇷TR_75
+      - 🇺🇸US_76
+      - 🇿🇦ZA_77
 
   - name: 🎯 全球直连
     type: select
@@ -526,13 +461,13 @@ proxy-groups:
       - Relay_🇨🇳CN-🇳🇱NL_07
       - Relay_🇨🇳CN-🇰🇷KR_08
       - Relay_🇨🇳CN-🇬🇧GB_09
-      - 🇨🇳CN_10
+      - Relay_🇨🇳CN-🇺🇸US_10
       - Relay_🇨🇳CN-🇸🇬SG_11
       - Relay_🇨🇳CN-🇸🇬SG_12
       - Relay_🇨🇳CN-🇸🇬SG_13
       - Relay_🇨🇳CN-🇸🇬SG_14
       - Relay_🇨🇳CN-🇹🇼TW_15
-      - 🇨🇳CN_16
+      - Relay_🇨🇳CN-🇺🇸US_16
       - Relay_🇨🇳CN-🇸🇬SG_17
       - Relay_🇨🇳CN-🇸🇬SG_18
       - Relay_🇨🇳CN-🇸🇬SG_19
@@ -574,39 +509,26 @@ proxy-groups:
       - Relay_🇨🇳CN-🇭🇰HK_55
       - Relay_🇨🇳CN-🇭🇰HK_56
       - Relay_🇨🇳CN-🇺🇸US_57
-      - Relay_🇩🇪DE-🇩🇪DE_58
-      - 🇫🇷FR_59
+      - 🇫🇷FR_58
+      - 🇭🇰HK_59
       - 🇭🇰HK_60
       - 🇭🇰HK_61
-      - 🇭🇰HK_62
-      - 🇭🇰HK_63
-      - 🇭🇰HK_64
-      - Relay_🇭🇰HK-🇯🇵JP_65
-      - Relay_🇭🇰HK-🇭🇰HK_66
-      - 🇰🇷KR_67
-      - Relay_🇰🇷KR-🇰🇷KR_68
-      - 🇳🇱NL_69
-      - 🇵🇱PL_70
-      - 🇸🇬SG_71
-      - 🇸🇬SG_72
-      - 🇸🇬SG_73
-      - 🇸🇬SG_74
-      - Relay_🇹🇼TW-🇹🇼TW_75
-      - Relay_🇹🇼TW-🇹🇼TW_76
-      - Relay_🇹🇼TW-🇹🇼TW_77
-      - Relay_🇺🇸US-🇮🇩ID_78
-      - Relay_🇺🇸US-🇨🇭CH_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇨🇭CH_81
-      - Relay_🇺🇸US-🇮🇩ID_82
-      - Relay_🇺🇸US-🇺🇸US_83
-      - Relay_🇺🇸US-🇩🇪DE_84
-      - Relay_🇺🇸US-🇫🇷FR_85
-      - Relay_🇺🇸US-🇹🇼TW_86
-      - Relay_🇺🇸US-🇺🇸US_87
-      - Relay_🇺🇸US-🇹🇷TR_88
-      - 🇺🇸US_89
-      - 🇿🇦ZA_90
+      - Relay_🇭🇰HK-🇭🇰HK_62
+      - 🇵🇱PL_63
+      - 🇸🇬SG_64
+      - Relay_🇹🇼TW-🇹🇼TW_65
+      - Relay_🇹🇼TW-🇹🇼TW_66
+      - Relay_🇹🇼TW-🇹🇼TW_67
+      - 🇺🇸US_68
+      - Relay_🇺🇸US-🇨🇭CH_69
+      - Relay_🇺🇸US-🇨🇭CH_70
+      - Relay_🇺🇸US-🇮🇩ID_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - 🇺🇸US_73
+      - Relay_🇺🇸US-🇫🇷FR_74
+      - Relay_🇺🇸US-🇹🇷TR_75
+      - 🇺🇸US_76
+      - 🇿🇦ZA_77
 
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
