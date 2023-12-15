@@ -1,9 +1,8 @@
-# .github/workflows/sync.yml
 name: Scheduled Sync and Rename
 
 on:
   schedule:
-    - cron: '* */1 * * *'  # 每1小时触发
+    - cron: '0 */2 * * *'  # 设置定时，这里表示每天UTC时间的00:00执行一次同步
 
 jobs:
   sync_and_rename:
@@ -15,9 +14,9 @@ jobs:
 
     - name: Sync with upstream
       run: |
-        git remote add upstream https://github.com/snakem982/proxypool.git
+        git remote add upstream --allow-unrelated-histories https://github.com/snakem982/proxypool.git
         git fetch upstream
-        git merge proxypool/main  # 使用正确的分支名
+        git merge --allow-unrelated-histories upstream/main  # 使用正确的分支名
 
         # 如果有冲突，可以在此解决冲突，然后提交更改
 
