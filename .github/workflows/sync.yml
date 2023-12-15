@@ -40,7 +40,7 @@ jobs:
           done
         working-directory: ${{ github.workspace }}
 
-      - name: Debug: Check changes
+      - name: Debug_Check_changes
         run: |
           # 输出当前工作目录的文件状态
           ls -la
