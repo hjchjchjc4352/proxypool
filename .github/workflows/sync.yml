@@ -25,14 +25,15 @@ jobs:
           # 以下是一个简单的示例，你可能需要根据实际情况修改
 
           # 获取所有文件名
-          files=$(ls *.yaml)
+          files=$(ls clash*.yaml)
 
           # 循环遍历文件名
           for file in $files; do
             # 判断文件名是否包含某个字符串（可根据实际情况修改判断条件）
-            if [[ $file == *clash* ]]; then
+            if [ "$file" != "clash.yaml" ]; then
               # 重命名文件为 clash.yaml
-              mv "$file" "clash.yaml"
+              new_name="clash.yaml"
+              mv "$file" "./$new_name"
             fi
           done
         working-directory: ${{ github.workspace }}
