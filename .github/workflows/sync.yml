@@ -36,3 +36,13 @@ jobs:
             fi
           done
         working-directory: ${{ github.workspace }}
+        
+      - name: Commit and push changes
+        run: |
+          git add .
+          git config --local user.email "hjchjchjc4352@outlook.com"
+          git config --local user.name "hjchjchjc4352"
+          git commit -m "Rename files"
+          git push --set-upstream origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.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 }}
