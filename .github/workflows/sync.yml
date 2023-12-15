@@ -41,6 +41,10 @@ jobs:
         
       - name: Commit and push changes
         run: |
+          # 获取当前目录下的文件列表
+          ls -la
+
+          # 添加所有更改到 Git
           git add .
           git config --local user.email "hjchjchjc4352@outlook.com"
           git config --local user.name "hjchjchjc4352"
