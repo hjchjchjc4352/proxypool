@@ -2,7 +2,7 @@ name: Scheduled Sync and Rename
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # 设置定时，这里表示每两小时执行一次同步
+    - cron: '* * * * *'  # 设置定时，这里表示每两小时执行一次同步
 
 jobs:
   sync_and_rename:
