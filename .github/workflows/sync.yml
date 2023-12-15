@@ -11,6 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
       - name: Sync with upstream
         uses: TG908/fork-sync@v1.6.3
         with:
@@ -38,7 +39,19 @@ jobs:
             fi
           done
         working-directory: ${{ github.workspace }}
-        
+
+      - name: Debug: Check changes
+        run: |
+          # 输出当前工作目录的文件状态
+          ls -la
+
+          # 输出 Git 状态
+          git status
+
+          # 输出 Git 更改
+          git diff
+        working-directory: ${{ github.workspace }}
+
       - name: Commit and push changes
         run: |
           # 获取当前目录下的文件列表
