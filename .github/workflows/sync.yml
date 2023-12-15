@@ -2,7 +2,7 @@ name: Scheduled Sync and Rename
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # 设置定时，这里表示每天UTC时间的00:00执行一次同步
+    - cron: '0 */2 * * *'  # 设置定时，这里表示每两小时执行一次同步
 
 jobs:
   sync_and_rename:
@@ -12,11 +12,24 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Sync with upstream
+    - name: Create a new branch
       run: |
+        git checkout -b merge-branch
         git remote add upstream --allow-unrelated-histories https://github.com/snakem982/proxypool.git
         git fetch upstream
         git merge --allow-unrelated-histories upstream/main  # 使用正确的分支名
+
+        # 如果有冲突，可以在此解决冲突，然后提交更改
+
+        git push origin merge-branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Merge new branch into main
+      run: |
+        git checkout main
+        git pull origin merge-branch
+        git merge merge-branch
 
         # 如果有冲突，可以在此解决冲突，然后提交更改
 
@@ -24,20 +37,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Rename file
+    - name: Delete the temporary branch
       run: |
-        # 在这里编写脚本来动态识别并重命名文件
-        # 以下是一个简单的示例，你可能需要根据实际情况修改
-
-        # 获取所有文件名
-        files=$(ls *.yaml)
-
-        # 循环遍历文件名
-        for file in $files; do
-          # 判断文件名是否包含某个字符串（可根据实际情况修改判断条件）
-          if [[ $file == *clash* ]]; then
-            # 重命名文件为 clash.yaml
-            mv "$file" "clash.yaml"
-          fi
-        done
-      working-directory: ${{ github.workspace }}
+        git branch -d merge-branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
