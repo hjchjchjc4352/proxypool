@@ -1,17 +1,46 @@
-# .github/workflows/sync.yml
-name: Sync Fork
+name: Sync Fork and Rename
 
 on:
-  push: # push 时触发, 主要是为了测试配置有没有问题
+  push:
   schedule:
-    - cron: '* * * * *' # 每3小时触发, 对于一些更新不那么频繁的项目可以设置为每天一次, 低碳一点
+    - cron: '* */3 * * *'
+
 jobs:
-  repo-sync:
+  repo-sync-and-rename:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: TG908/fork-sync@v1.6.3
+      - uses: actions/checkout@v2
+      - name: Sync with upstream
+        uses: TG908/fork-sync@v1.6.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          owner: snakem982 # fork 的上游仓库 user
-          head: main # fork 的上游仓库 branch
-          base: main # 本地仓库 branch
+          owner: snakem982
+          head: main
+          base: main
+
+      - name: Rename files
+        run: |
+          # 在这里编写脚本来动态识别并重命名文件
+          # 以下是一个简单的示例，你可能需要根据实际情况修改
+
+          # 获取所有文件名
+          files=$(ls *.yaml)
+
+          # 循环遍历文件名
+          for file in $files; do
+            # 判断文件名是否包含某个字符串（可根据实际情况修改判断条件）
+            if [[ $file == *clash* ]]; then
+              # 重命名文件为 clash.yaml
+              mv "$file" "clash.yaml"
+            fi
+          done
+        working-directory: ${{ github.workspace }}
+
+      - name: Commit and push changes
+        run: |
+          git add .
+          git commit -m "Rename files"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
