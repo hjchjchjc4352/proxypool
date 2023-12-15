@@ -29,10 +29,11 @@ jobs:
 
           # 循环遍历文件名
           for file in $files; do
-            # 判断文件名是否包含某个字符串（可根据实际情况修改判断条件）
+            # 判断文件名是否为 "clash.yaml"
             if [ "$file" != "clash.yaml" ]; then
-              # 重命名文件为 clash.yaml
+              # 生成新的文件名 clash.yaml
               new_name="clash.yaml"
+              # 重命名文件，使用相对路径
               mv "$file" "./$new_name"
             fi
           done
