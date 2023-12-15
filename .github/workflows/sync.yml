@@ -17,7 +17,7 @@ jobs:
       run: |
         git remote add upstream https://github.com/snakem982/proxypool.git
         git fetch upstream
-        git merge upstream/main  # 使用正确的分支名
+        git merge proxypool/main  # 使用正确的分支名
 
         # 如果有冲突，可以在此解决冲突，然后提交更改
 
