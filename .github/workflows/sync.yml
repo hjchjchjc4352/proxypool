@@ -1,4 +1,4 @@
-name: Sync Fork and Rename
+name: Sync Fork and Overwrite
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
     - cron: '2 */2 * * *'
 
 jobs:
-  repo-sync-and-rename:
+  repo-sync-and-overwrite:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,48 +20,27 @@ jobs:
           head: main
           base: main
 
-      - name: Rename files
+      - name: Overwrite one.yaml
         run: |
-          # 在这里编写脚本来动态识别并重命名文件
-          # 以下是一个简单的示例，你可能需要根据实际情况修改
-
-          # 获取所有文件名
+          # 获取所有以 "clash" 开头的 YAML 文件
           files=$(ls clash*.yaml)
 
-          # 循环遍历文件名
+          # 创建一个新的 one.yaml 文件
+          echo "" > one.yaml
+
+          # 循环遍历文件并将内容覆盖到 one.yaml
           for file in $files; do
-            # 判断文件名是否为 "clash.yaml"
-            if [ "$file" != "clash.yaml" ]; then
-              # 生成新的文件名 clash.yaml
-              new_name="clash.yaml"
-              # 重命名文件，使用相对路径
-              mv "$file" "./$new_name"
-            fi
+            cat "$file" > one.yaml
           done
-        working-directory: ${{ github.workspace }}
-
-      - name: Debug_Check_changes
-        run: |
-          # 输出当前工作目录的文件状态
-          ls -la
-
-          # 输出 Git 状态
-          git status
-
-          # 输出 Git 更改
-          git diff
         working-directory: ${{ github.workspace }}
 
       - name: Commit and push changes
         run: |
-          # 获取当前目录下的文件列表
-          ls -la
-
-          # 添加所有更改到 Git
-          git add .
+          # 添加 one.yaml 文件到 Git
+          git add one.yaml
           git config --local user.email "hjchjchjc4352@outlook.com"
           git config --local user.name "hjchjchjc4352"
-          git commit -m "Rename files"
+          git commit -m "Overwrite one.yaml with clash*.yaml files"
           git push --set-upstream origin main
         env:
           GITHUB_TOKEN: ${{ secrets.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 }}
