@@ -20,6 +20,11 @@ jobs:
           head: main
           base: main
 
+      - name: Delete existing one.yaml
+        run: |
+          rm -f one.yaml
+        working-directory: ${{ github.workspace }}
+
       - name: Overwrite one.yaml
         run: |
           # 获取所有以 "clash" 开头的 YAML 文件
