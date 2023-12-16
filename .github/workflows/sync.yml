@@ -11,6 +11,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      
+      - name: Make a dummy commit
+        run: |
+          echo "Dummy commit to force push" >> dummy.txt
+          git add dummy.txt
+          git commit -m "Dummy commit to force push"
+        working-directory: ${{ github.workspace }}
+
       - name: Sync with upstream
         uses: TG908/fork-sync@v1.6.3
         with:
