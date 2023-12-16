@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      
+
       - name: 设置 Git 用户身份
         run: |
           git config --global user.email "hjchjchjc4352@outlook.com"
@@ -34,34 +34,21 @@ jobs:
         run: git pull --force
         working-directory: ${{ github.workspace }}
 
-      - name: 重命名文件
+      - name: 重命名 clash.yaml 文件
         run: |
-          # 在这里编写脚本来动态识别并重命名文件
-          # 以下是一个简单的示例，你可能需要根据实际情况修改
+          mv -f clash*.yaml clash.yaml
+        working-directory: ${{ github.workspace }}
 
-          # 获取所有文件名
-          files=$(ls clash*.yaml)
-
-          # 循环遍历文件名
-          for file in $files; do
-            # 判断文件名是否为 "clash.yaml"
-            if [ "$file" != "clash.yaml" ]; then
-              # 生成新的文件名 clash.yaml
-              new_name="clash.yaml"
-              # 重命名文件，使用相对路径
-              mv "$file" "./$new_name"
-            fi
-          done
+      - name: 重命名 v2ray.txt 文件
+        run: |
+          mv -f v2ray*.txt v2ray.txt
         working-directory: ${{ github.workspace }}
 
       - name: 提交并强制推送更改
         run: |
-          # 获取当前目录下的文件列表
           ls -la
-
-          # 添加所有更改到 Git
           git add .
-          git commit -m "Rename files"
+          git commit -m "Optimize file names"
           git push --force-with-lease
         env:
           GITHUB_TOKEN: ${{ secrets.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 }}
