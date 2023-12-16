@@ -23,7 +23,7 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: 添加上游仓库为远程仓库
-        run: git remote add upstream https://github.com/snakem982/repo.git
+        run: git remote add upstream https://github.com/snakem982/proxypool.git
         working-directory: ${{ github.workspace }}
 
       - name: 获取上游仓库的更新
