@@ -29,8 +29,10 @@ jobs:
         run: git push
         working-directory: ${{ github.workspace }}
 
-      - name: Force push local branch to remote
-        run: git push --force origin main
+      - name: Reset remote main branch to local
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
         working-directory: ${{ github.workspace }}
 
       - name: Sync with upstream
