@@ -12,23 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Make a dummy commit
-        run: |
-          echo "Dummy commit to force push" >> dummy.txt
-name: Sync Fork and Rename
-
-on:
-  push:
-  schedule:
-    - cron: '0 */2 * * *'
-
-jobs:
-  repo-sync-and-rename:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-      
       - name: Set Git user identity
         run: |
           git config --global user.email "hjchjchjc4352@outlook.com"
