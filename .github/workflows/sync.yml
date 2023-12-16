@@ -12,36 +12,33 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Set Git user identity
+      - name: 设置 Git 用户身份
         run: |
           git config --global user.email "hjchjchjc4352@outlook.com"
           git config --global user.name "hjchjchjc4352"
         working-directory: ${{ github.workspace }}
 
-      - name: Make a dummy commit
-        run: |
-          echo "Dummy commit to force push" >> dummy.txt
-          git add dummy.txt
-          git commit -m "Dummy commit to force push"
-        working-directory: ${{ github.workspace }}
-
-      - name: Push local commits to remote
-        run: git push
-        working-directory: ${{ github.workspace }}
-
-      - name: Create a temporary branch
+      - name: 创建临时分支
         run: git checkout -b temp-branch
         working-directory: ${{ github.workspace }}
 
-      - name: Sync with upstream
-        uses: TG908/fork-sync@v1.6.3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          owner: snakem982
-          head: temp-branch
-          base: temp-branch
+      - name: 添加上游仓库为远程仓库
+        run: git remote add upstream https://github.com/snakem982/proxypool.git
+        working-directory: ${{ github.workspace }}
 
-      - name: Rename files
+      - name: 获取上游仓库的更新
+        run: git fetch upstream
+        working-directory: ${{ github.workspace }}
+
+      - name: 合并上游仓库的更新到本地分支
+        run: git merge upstream/main --allow-unrelated-histories -m "Merge upstream/main"
+        working-directory: ${{ github.workspace }}
+
+      - name: 推送本地分支的更改到远程仓库
+        run: git push
+        working-directory: ${{ github.workspace }}
+
+      - name: 重命名文件
         run: |
           # 在这里编写脚本来动态识别并重命名文件
           # 以下是一个简单的示例，你可能需要根据实际情况修改
@@ -61,7 +58,7 @@ jobs:
           done
         working-directory: ${{ github.workspace }}
 
-      - name: Commit and force push changes
+      - name: 提交并强制推送更改
         run: |
           # 获取当前目录下的文件列表
           ls -la
@@ -73,6 +70,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.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 }}
 
-      - name: Delete main branch
+      - name: 删除主分支
         run: git push --delete origin main
         working-directory: ${{ github.workspace }}
