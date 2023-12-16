@@ -29,8 +29,8 @@ jobs:
         run: git push
         working-directory: ${{ github.workspace }}
 
-      - name: Delete remote main branch
-        run: git push --delete origin main
+      - name: Create a temporary branch
+        run: git checkout -b temp-branch
         working-directory: ${{ github.workspace }}
 
       - name: Sync with upstream
@@ -38,8 +38,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           owner: snakem982
-          head: main
-          base: main
+          head: temp-branch
+          base: temp-branch
 
       - name: Rename files
         run: |
@@ -60,7 +60,7 @@ jobs:
             fi
           done
         working-directory: ${{ github.workspace }}
-        
+
       - name: Commit and force push changes
         run: |
           # 获取当前目录下的文件列表
@@ -69,6 +69,10 @@ jobs:
           # 添加所有更改到 Git
           git add .
           git commit -m "Rename files"
-          git push --force --set-upstream origin main
+          git push --force --set-upstream origin temp-branch
         env:
           GITHUB_TOKEN: ${{ secrets.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 }}
+
+      - name: Delete main branch
+        run: git push --delete origin main
+        working-directory: ${{ github.workspace }}
