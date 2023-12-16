@@ -34,14 +34,29 @@ jobs:
         run: git pull --force
         working-directory: ${{ github.workspace }}
 
-      - name: 重命名 clash.yaml 文件
+      - name: 重命名文件
         run: |
-          mv -f clash*.yaml clash.yaml
-        working-directory: ${{ github.workspace }}
+          # 获取所有文件名
+          files=$(ls)
 
-      - name: 重命名 v2ray.txt 文件
-        run: |
-          mv -f v2ray*.txt v2ray.txt
+          # 循环遍历文件名
+          for file in $files; do
+            # 判断文件名是否为 "clash.yaml"
+            if [ "$file" != "clash.yaml" ] && [[ $file == clash*.yaml ]]; then
+              # 生成新的文件名 clash.yaml
+              new_name="clash.yaml"
+              # 重命名文件，使用相对路径
+              mv "$file" "./$new_name"
+            fi
+
+            # 判断文件名是否为 "v2ray.txt"
+            if [[ $file == v2ray*.txt && $file != "v2ray.txt" ]]; then
+              # 生成新的文件名 v2ray.txt
+              new_name="v2ray.txt"
+              # 重命名文件，使用相对路径
+              mv "$file" "./$new_name"
+            fi
+          done
         working-directory: ${{ github.workspace }}
 
       - name: 提交并强制推送更改
