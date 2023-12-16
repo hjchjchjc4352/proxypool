@@ -42,6 +42,10 @@ jobs:
         run: git push --set-upstream origin temp-branch
         working-directory: ${{ github.workspace }}
 
+      - name: 强制设置上游分支
+        run: git branch --set-upstream-to=origin/temp-branch
+        working-directory: ${{ github.workspace }}
+
       - name: 重命名文件
         run: |
           # 在这里编写脚本来动态识别并重命名文件
