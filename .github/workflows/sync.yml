@@ -3,7 +3,7 @@ name: Sync Fork and Rename
 on:
   push:
   schedule:
-    - cron: '2 */2 * * *'
+    - cron: '2 */1 * * *'
 
 jobs:
   repo-sync-and-rename:
@@ -23,6 +23,108 @@ jobs:
           echo "Dummy commit to force push" >> dummy.txt
           git add dummy.txt
           git commit -m "Dummy commit to force push"
+        working-directory: ${{ github.workspace }}
+
+      - name: Push local commits to remote
+        run: git push
+        working-directory: ${{ github.workspace }}
+
+      - name: Sync with upstream
+        uses: TG908/fork-sync@v1.6.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          owner: snakem982
+          head: main
+          base: main
+
+      - name: Rename files
+        run: |
+          # 在这里编写脚本来动态识别并重命名文件
+          # 以下是一个简单的示例，你可能需要根据实际情况修改
+
+          # 获取所有文件名
+          files=$(ls clash*.yaml)
+
+          # 循环遍历文件名
+          for file in $files; do
+name: Sync Fork and Rename
+
+on:
+  push:
+  schedule:
+    - cron: '0 */2 * * *'
+
+jobs:
+  repo-sync-and-rename:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set Git user identity
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+        working-directory: ${{ github.workspace }}
+
+      - name: Make a dummy commit
+        run: |
+          echo "Dummy commit to force push" >> dummy.txt
+          git add dummy.txt
+          git commit -m "Dummy commit to force push"
+        working-directory: ${{ github.workspace }}
+
+      - name: Push local commits to remote
+        run: git push
+        working-directory: ${{ github.workspace }}
+
+      - name: Sync with upstream
+        uses: TG908/fork-sync@v1.6.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          owner: snakem982
+          head: main
+          base: main
+
+      - name: Rename files
+        run: |
+          # 在这里编写脚本来动态识别并重命名文件
+          # 以下是一个简单的示例，你可能需要根据实际情况修改
+
+          # 获取所有文件名
+          files=$(ls clash*.yaml)
+
+          # 循环遍历文件名
+          for file in $files; do
+name: Sync Fork and Rename
+
+on:
+  push:
+  schedule:
+    - cron: '0 */2 * * *'
+
+jobs:
+  repo-sync-and-rename:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set Git user identity
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+        working-directory: ${{ github.workspace }}
+
+      - name: Make a dummy commit
+        run: |
+          echo "Dummy commit to force push" >> dummy.txt
+          git add dummy.txt
+          git commit -m "Dummy commit to force push"
+        working-directory: ${{ github.workspace }}
+
+      - name: Push local commits to remote
+        run: git push
         working-directory: ${{ github.workspace }}
 
       - name: Sync with upstream
