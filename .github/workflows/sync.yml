@@ -27,7 +27,7 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: 合并上游仓库的更新到本地主分支
-        run: git merge --strategy-option=theirs upstream/main -m "Merge upstream/main"
+        run: git merge --allow-unrelated-histories --strategy-option=theirs upstream/main -m "Merge upstream/main"
         working-directory: ${{ github.workspace }}
 
       - name: 强制更新
