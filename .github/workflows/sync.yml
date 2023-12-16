@@ -2,8 +2,8 @@ name: Sync Fork and Rename
 
 on:
   push:
-  schedule:
-    - cron: '2 */2 * * *'
+    schedule:
+      - cron: '2 */2 * * *'
 
 jobs:
   repo-sync-and-rename:
@@ -18,10 +18,6 @@ jobs:
           git config --global user.name "hjchjchjc4352"
         working-directory: ${{ github.workspace }}
 
-      - name: 创建临时分支
-        run: git checkout -b temp-branch
-        working-directory: ${{ github.workspace }}
-
       - name: 添加上游仓库为远程仓库
         run: git remote add upstream https://github.com/snakem982/proxypool.git
         working-directory: ${{ github.workspace }}
@@ -30,20 +26,8 @@ jobs:
         run: git fetch upstream
         working-directory: ${{ github.workspace }}
 
-      - name: 合并上游仓库的更新到本地分支
+      - name: 合并上游仓库的更新到本地主分支
         run: git merge upstream/main --allow-unrelated-histories -m "Merge upstream/main"
-        working-directory: ${{ github.workspace }}
-
-      - name: 推送本地分支的更改到远程仓库
-        run: git push
-        working-directory: ${{ github.workspace }}
-
-      - name: 设置上游分支
-        run: git push --set-upstream origin temp-branch
-        working-directory: ${{ github.workspace }}
-
-      - name: 强制设置上游分支
-        run: git branch --set-upstream-to=origin/temp-branch
         working-directory: ${{ github.workspace }}
 
       - name: 重命名文件
@@ -74,10 +58,6 @@ jobs:
           # 添加所有更改到 Git
           git add .
           git commit -m "Rename files"
-          git push --force --set-upstream origin temp-branch
+          git push --force-with-lease
         env:
           GITHUB_TOKEN: ${{ secrets.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 }}
-
-      - name: 删除主分支
-        run: git push --delete origin main
-        working-directory: ${{ github.workspace }}
