@@ -15,6 +15,29 @@ jobs:
       - name: Make a dummy commit
         run: |
           echo "Dummy commit to force push" >> dummy.txt
+name: Sync Fork and Rename
+
+on:
+  push:
+  schedule:
+    - cron: '0 */2 * * *'
+
+jobs:
+  repo-sync-and-rename:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set Git user identity
+        run: |
+          git config --global user.email "hjchjchjc4352@outlook.com"
+          git config --global user.name "hjchjchjc4352"
+        working-directory: ${{ github.workspace }}
+
+      - name: Make a dummy commit
+        run: |
+          echo "Dummy commit to force push" >> dummy.txt
           git add dummy.txt
           git commit -m "Dummy commit to force push"
         working-directory: ${{ github.workspace }}
@@ -54,8 +77,6 @@ jobs:
 
           # 添加所有更改到 Git
           git add .
-          git config --local user.email "hjchjchjc4352@outlook.com"
-          git config --local user.name "hjchjchjc4352"
           git commit -m "Rename files"
           git push --force --set-upstream origin main
         env:
