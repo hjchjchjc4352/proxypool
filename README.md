@@ -24,14 +24,18 @@ The following is a self-built node cost-effective server recommendation:
 - [3000G/月Month 1000Mbps 1C2G $19.89/年Year 美国RackNerd促销](https://my.racknerd.com/aff.php?aff=8613 "美国RackNerd")
 
 ## 订阅地址，两个小时更新一次。<br/>Subscription url, updated every two hours.
+### mihomo
+https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo27822.yaml  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo27822.yaml
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo27822.yaml
 ### clash
-https://raw.githubusercontent.com/snakem982/proxypool/main/clashaf596.yaml  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clashaf596.yaml
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clashaf596.yaml
+https://raw.githubusercontent.com/snakem982/proxypool/main/clash27822.yaml  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clash27822.yaml
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clash27822.yaml
 ### v2ray
-https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayaf596.txt  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayaf596.txt
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayaf596.txt
+https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray27822.txt  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray27822.txt
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray27822.txt
 
 
 ## 免责声明 <br/>Disclaimer
