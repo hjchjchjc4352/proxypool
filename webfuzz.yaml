@@ -23,11 +23,6 @@
   options:
     url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt
 
-# 20230709
-- type: webfuzz
-  options:
-    url: https://raw.githubusercontent.com/hicloudi/officialinquire/main/README.md
-
 - type: webfuzz
   options:
     url: https://raw.githubusercontent.com/yaney01/Yaney01/main/README.md
@@ -56,14 +51,6 @@
 - type: webfuzz
   options:
     url: https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt
-
-# 20230930
-- type: webfuzz
-  options:
-    url: https://raw.githubusercontent.com/outnow/outnow/main/README.md
-- type: webfuzzsub
-  options:
-    url: https://raw.githubusercontent.com/vveg26/chromego_merge/main/urls/clash_new_urls.txt
 
 # 20231108
 - type: webfuzz
