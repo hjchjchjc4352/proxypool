@@ -25,17 +25,17 @@ The following is a self-built node cost-effective server recommendation:
 
 ## 订阅地址，两个小时更新一次。<br/>Subscription url, updated every two hours.
 ### mihomo
-https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo58df4.yaml  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo58df4.yaml
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo58df4.yaml
+https://raw.githubusercontent.com/snakem982/proxypool/main/mihomof5bf3.yaml  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomof5bf3.yaml
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomof5bf3.yaml
 ### clash
-https://raw.githubusercontent.com/snakem982/proxypool/main/clash58df4.yaml  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clash58df4.yaml
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clash58df4.yaml
+https://raw.githubusercontent.com/snakem982/proxypool/main/clashf5bf3.yaml  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clashf5bf3.yaml
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clashf5bf3.yaml
 ### v2ray
-https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray58df4.txt  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray58df4.txt
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray58df4.txt
+https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayf5bf3.txt  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayf5bf3.txt
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayf5bf3.txt
 
 
 ## 免责声明 <br/>Disclaimer
