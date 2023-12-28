@@ -41,6 +41,14 @@ jobs:
 
           # 循环遍历文件名
           for file in $files; do
+            # 判断文件名是否为 "mihomo.yaml"
+            if [ "$file" != "mihomo.yaml" ] && [[ $file == mihomo*.yaml ]]; then
+              # 生成新的文件名 mihomo.yaml
+              new_name="mihomo.yaml"
+              # 重命名文件，使用相对路径
+              mv "$file" "./$new_name"
+            fi
+            
             # 判断文件名是否为 "clash.yaml"
             if [ "$file" != "clash.yaml" ] && [[ $file == clash*.yaml ]]; then
               # 生成新的文件名 clash.yaml
