@@ -20,22 +20,24 @@ Long-term use is not recommended! ! !</font><br/>
 若要持续、稳定、安全、高速的节点请自建，下面是高性价比服务器推荐：<br/>
 If you want a continuous, stable, safe, and high-speed node, please build it yourself.
 The following is a self-built node cost-effective server recommendation:
-- [2000G/月Month 1000Mbps 1C1G $11.38/年Year 美国RackNerd促销](https://my.racknerd.com/aff.php?aff=8613 "美国RackNerd")
-- [3000G/月Month 1000Mbps 1C2G $19.89/年Year 美国RackNerd促销](https://my.racknerd.com/aff.php?aff=8613 "美国RackNerd")
+- [1500G/月Month 网速1Gbps 1vCPU 1G RAM $11.49/年Year 2024美国RackNerd促销](https://my.racknerd.com/aff.php?aff=8613&pid=826 "2024美国RackNerd促销")
+- [2500G/月Month 网速1Gbps 1vCPU 2G RAM $17.38/年Year 2024美国RackNerd促销](https://my.racknerd.com/aff.php?aff=8613&pid=827 "2024美国RackNerd促销")
+- [5000G/月Month 网速1Gbps 2vCPU 3G RAM $27.98/年Year 2024美国RackNerd促销](https://my.racknerd.com/aff.php?aff=8613&pid=828 "2024美国RackNerd促销")
+- [8000G/月Month 网速1Gbps 2vCPU 4G RAM $37.38/年Year 2024美国RackNerd促销](https://my.racknerd.com/aff.php?aff=8613&pid=829 "2024美国RackNerd促销")
 
 ## 订阅地址，两个小时更新一次。<br/>Subscription url, updated every two hours.
 ### mihomo
-https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo68c6a.yaml  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo68c6a.yaml
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo68c6a.yaml
+https://raw.githubusercontent.com/snakem982/proxypool/main/mihomocd671.yaml  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomocd671.yaml
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomocd671.yaml
 ### clash
-https://raw.githubusercontent.com/snakem982/proxypool/main/clash68c6a.yaml  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clash68c6a.yaml
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clash68c6a.yaml
+https://raw.githubusercontent.com/snakem982/proxypool/main/clashcd671.yaml  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clashcd671.yaml
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clashcd671.yaml
 ### v2ray
-https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray68c6a.txt  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray68c6a.txt
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray68c6a.txt
+https://raw.githubusercontent.com/snakem982/proxypool/main/v2raycd671.txt  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2raycd671.txt
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2raycd671.txt
 
 
 ## 免责声明 <br/>Disclaimer
