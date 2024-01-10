@@ -27,11 +27,6 @@
   options:
     url: https://raw.githubusercontent.com/yaney01/Yaney01/main/README.md
 
-# 20230710
-- type: webfuzz
-  options:
-    url: https://raw.githubusercontent.com/Kenny-Bob/DIANDIAN/main/point
-
 # 20230729
 - type: webfuzz
   options:
