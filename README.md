@@ -25,19 +25,19 @@ The following is a self-built node cost-effective server recommendation:
 - [5000G/月Month 网速1Gbps 2vCPU 3G RAM $27.98/年Year 2024美国RackNerd促销](https://my.racknerd.com/aff.php?aff=8613&pid=828 "2024美国RackNerd促销")
 - [8000G/月Month 网速1Gbps 2vCPU 4G RAM $37.38/年Year 2024美国RackNerd促销](https://my.racknerd.com/aff.php?aff=8613&pid=829 "2024美国RackNerd促销")
 
-## 订阅地址，两个小时更新一次。<br/>Subscription url, updated every two hours.
+## 订阅地址，六个小时更新一次。<br/>Subscription url, updated every six hours.
 ### mihomo
-https://raw.githubusercontent.com/snakem982/proxypool/main/mihomob2e51.yaml  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomob2e51.yaml
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomob2e51.yaml
+https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo00ea3.yaml  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo00ea3.yaml
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/mihomo00ea3.yaml
 ### clash
-https://raw.githubusercontent.com/snakem982/proxypool/main/clashb2e51.yaml  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clashb2e51.yaml
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clashb2e51.yaml
+https://raw.githubusercontent.com/snakem982/proxypool/main/clash00ea3.yaml  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clash00ea3.yaml
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clash00ea3.yaml
 ### v2ray
-https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayb2e51.txt  (需要魔法 Need Proxy)
-https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayb2e51.txt
-https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2rayb2e51.txt
+https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray00ea3.txt  (需要魔法 Need Proxy)
+https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray00ea3.txt
+https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/v2ray00ea3.txt
 
 
 ## 免责声明 <br/>Disclaimer
